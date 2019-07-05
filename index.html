@@ -64,24 +64,26 @@
                 <li class="list-group-item">
                     <form>
                         <div class="form-group">
-                            <label for="account_number">Account Number</label>
-                            <input type="account" class="form-control" id="account_number" aria-describedby="Help"
+                            <label for="accountNumber">Account Number</label>
+                            <input type="account" class="form-control" id="accountNumber" aria-describedby="Help"
                                 placeholder="Enter Account Number">
                             <small id="Help" class="form-text text-muted">top number</small>
                         </div>
                         <div class="form-group">
-                            <label for="multiplying_number">Multiplying Number</label>
-                            <input type="multiplying" class="form-control" id="multiplying_number"
+                            <label for="multiplyingNumber">Multiplying Number</label>
+                            <input type="multiplying" class="form-control" id="multiplyingNumber"
                                 aria-describedby="Help" placeholder="Enter Multiplying Number">
                             <small id="Help" class="form-text text-muted">bottom number</small>
                         </div>
-
+                        <input type="button" onClick="multiplyBy()" Value="Go" />
                     </form>
                 </li>
                 <li class="list-group-item">
                     
                     being read as ">"<br>
-                    Result:
+                    <p>The Result is : <br>
+                        <span id = "result"></span>
+                        </p>
 
                 </li>
 
