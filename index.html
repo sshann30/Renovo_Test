@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Renovo Algorithm</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <script src="logic.js"></script>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+        <img src="Renovo-horiz-logo.png" alt="Renovo" height="15%" width="15%">
+        <ul class="nav flex-row">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="algo.html">Algorithm</a>
+            </li>
+
+        </ul>
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Choose Multipler Direction
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">If "12" is our multiplying number and Left to Right was clicked:
+                    <br>Our Account number would be multiplied by "12"
+                    <!-- <br><br><button type="button" class="btn btn-secondary">Left to Right</button></li> -->
+                </li>
+                <li class="list-group-item">If "12" is our multiplying number and Right to Left was clicked:
+                    <br>Our Account number would be multiplied by "21"
+                    <!-- <br><br><button type="button" class="btn btn-secondary">Right to left</button></li> -->
+                </li>
+
+                <li class="list-group-item">
+                    <br>
+
+                    <select class="form-control form-control-md">
+                        <option>Left to Right</option>
+                        <option>Right to Left</option>
+                    </select>
+                </li>
+            </ul>
+        </div>
+
+        <div class="card" style="width: 18rem;">
+            <div class="card-header">
+                Choose Your numbers
+            </div>
+            <ul class="list-group list-group-flush">
+                <li class="list-group-item">
+                    <form>
+                        <div class="form-group">
+                            <label for="account_number">Account Number</label>
+                            <input type="account" class="form-control" id="account_number" aria-describedby="Help"
+                                placeholder="Enter Account Number">
+                            <small id="Help" class="form-text text-muted">top number</small>
+                        </div>
+                        <div class="form-group">
+                            <label for="multiplying_number">Multiplying Number</label>
+                            <input type="multiplying" class="form-control" id="multiplying_number"
+                                aria-describedby="Help" placeholder="Enter Multiplying Number">
+                            <small id="Help" class="form-text text-muted">bottom number</small>
+                        </div>
+
+                    </form>
+                </li>
+                <li class="list-group-item">
+                    
+                    being read as ">"<br>
+                    Result:
+
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
