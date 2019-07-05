@@ -37,21 +37,23 @@
             </div>
             <ul class="list-group list-group-flush">
                 <li class="list-group-item">If "12" is our multiplying number and Left to Right was clicked:
-                    <br>Our Account number would be multiplied by "12"
+                    <br>Each individual number in the Account number would be multiplied by a pattern of "1,2"
                     <!-- <br><br><button type="button" class="btn btn-secondary">Left to Right</button></li> -->
                 </li>
                 <li class="list-group-item">If "12" is our multiplying number and Right to Left was clicked:
-                    <br>Our Account number would be multiplied by "21"
+                    <br>Each individual number in the Account number would be multiplied by a pattern of "2,1"
                     <!-- <br><br><button type="button" class="btn btn-secondary">Right to left</button></li> -->
                 </li>
 
                 <li class="list-group-item">
                     <br>
 
-                    <select class="form-control form-control-md">
-                        <option>Left to Right</option>
-                        <option>Right to Left</option>
+                    <select class="form-control form-control-md" id="selectid" name="selectname" onchange="jsfunc1()">
+                    <option value="val1" id="valid1"> Left to Right </option>
+                    <option value="val2" id="valid2"> Right to Left </option>
                     </select>
+
+                   
                 </li>
             </ul>
         </div>
