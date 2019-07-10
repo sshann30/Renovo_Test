@@ -8,7 +8,7 @@ var accountNumberOutput = []
 var multiplyingNumberOutput = []
 var new_multiplyingNumberOutput =[]
 var newArray= []
-function multiplyBy() {
+function multiplyBy() {{
     // step 1: split account number into array
     var accountNumber = document.getElementById("accountNumber").value;
     
@@ -34,7 +34,7 @@ function multiplyBy() {
     // // step 3: if statement:
 
     // // right to left revert sequence
-    // if (document.getElementById('val2').clicked == true) {
+    // if (document.getElementById('val2').selected == true) {
     //     // var multiplyingNumberOutput = new_multiplyingNumberOutput
     //     var multiplyingNumberOutput = arr.reverse();
     //     console.log(new_multiplyingNumberOutput);
@@ -45,6 +45,7 @@ function multiplyBy() {
     //     console.log(new_multiplyingNumberOutput);
     // };
 
+    // step 4,5 and 6 solved via for loop
     var arr1 = accountNumberOutput 
     var arr2 = multiplyingNumberOutput
     longerArray = arr1.length>arr2.length? arr1 : arr2
@@ -63,15 +64,11 @@ function multiplyBy() {
 }
 
 // pushing result
-var fruits = (newArray);
-document.getElementById("demo").innerHTML = fruits;
+document.getElementById("accountNumberOutput").innerHTML = (accountNumberOutput );
+document.getElementById("multiplyingNumberOutput").innerHTML = (multiplyingNumberOutput);
+document.getElementById("answer").innerHTML = (newArray);
 
-function myFunction() {
-  fruits.push((newArray));
-  document.getElementById("demo").innerHTML = fruits;
 }
-
-
 
 
 

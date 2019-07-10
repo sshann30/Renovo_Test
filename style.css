@@ -2,4 +2,6 @@
     display: flex;
     justify-content:  center;
   }
-  
+  body {
+    background-image: url("White-Background-Wallpaper-16577.jpg");
+  }  
