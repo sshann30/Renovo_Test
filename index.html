@@ -28,7 +28,7 @@
         </div>
     </nav>
 
-
+<br>
 
     <div class="container">
         <div class="card" style="width: 18rem;">
@@ -48,12 +48,13 @@
                 <li class="list-group-item">
                     <br>
 
-                    <select class="form-control form-control-md" id="selectid" name="selectname" onchange="jsfunc1()">
-                    <option value="val1" id="valid1"> Left to Right </option>
-                    <option value="val2" id="valid2"> Right to Left </option>
+                    <select class="form-control form-control-md" id="selectid" name="selectname">
+                        <!-- deleted this: not sure if i'll need it again: onchange="jsfunc1()" -->
+                        <option value="val1" type="val1" id="valid1"> Left to Right </option>
+                        <option value="val2" type="val2" id="valid2"> Right to Left </option>
                     </select>
 
-                   
+
                 </li>
             </ul>
         </div>
@@ -81,11 +82,14 @@
                     </form>
                 </li>
                 <li class="list-group-item">
+
                     
-                    being read as ">"<br>
-                    <p>The Result is : <br>
-                        <span id = "result"></span>
-                        </p>
+                    <p>The Result is : 
+                            <p id="demo"></p> <br>
+                        
+                                
+                                
+                    </p>
 
                 </li>
 
